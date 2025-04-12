@@ -24,6 +24,8 @@ Our module (APM, ACPA) is not involved in source-domain training; it is directly
 
 * **Base model trained in original [HSNet](https://github.com/juhongm999/hsnet) in the manner of [PATNet](https://github.com/slei109/PATNet)**
 
+* Our checkpoint of HSNet trained on the source domain is available here: [HSNet Checkpoint for CDFSS](https://drive.google.com/file/d/1qvsMneFbWyZoaux45TiD-Rvucew1EK4_/view?usp=drive_link)
+
 ## Target-Domain Finetuning/Target-Domain Testing
 
 We provide an example of integrating our lightweight frequency masker into HSNet. Our module is model-agnostic and can be applied to other models as well.
@@ -56,10 +58,13 @@ final_feature = acpa(enhanced_feature)
 If you find our work helpful for your research, please consider citing the following BibTeX entry.   
 
 ```bibtex
-@inproceedings{tonglightweight,
-  title={Lightweight Frequency Masker for Cross-Domain Few-Shot Semantic Segmentation},
-  author={Tong, Jintao and Zou, Yixiong and Li, Yuhua and Li, Ruixuan},
-  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems}
+@article{tong2024lightweight,
+	title={Lightweight frequency masker for cross-domain few-shot semantic segmentation},
+	author={Tong, Jintao and Zou, Yixiong and Li, Yuhua and Li, Ruixuan},
+	journal={Advances in Neural Information Processing Systems},
+	volume={37},
+	pages={96728--96749},
+	year={2024}
 }
 ```
 

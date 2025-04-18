@@ -24,7 +24,7 @@ Our module (APM, ACPA) is not involved in source-domain training; it is directly
 
 * **Base model trained in original [HSNet](https://github.com/juhongm999/hsnet) in the manner of [PATNet](https://github.com/slei109/PATNet)**
 
-* Our checkpoint of HSNet trained on the source domain is available here: [HSNet Checkpoint for CDFSS](https://drive.google.com/file/d/1qvsMneFbWyZoaux45TiD-Rvucew1EK4_/view?usp=drive_link)
+* Our checkpoint of HSNet trained on the source domain is available here: [[Google Drive](https://drive.google.com/file/d/1qvsMneFbWyZoaux45TiD-Rvucew1EK4_/view?usp=drive_link)].
 
 ## Target-Domain Finetuning/Target-Domain Testing
 
